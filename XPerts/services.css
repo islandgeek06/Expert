@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background: rgba(30, 48, 84, 255);
+} */
+
+.service-boxes {
+    margin: 15rem 0;
+}
+
+.add-ser {
+    margin-left: 11rem;
+}
+
+.add-ser h1 {
+    text-transform: uppercase;
+    padding-top: 8px;
+    color: rgb(4, 4, 77);
+    font-weight: bolder;
+}
+
+.add-ser p {
+    font-size: 1.3rem;
+    color: #979794;
+    padding-bottom: 10px;
+}
+
+.service-header {
+    background: rgba(30, 48, 84, 255);
+    padding-bottom: 40vh;
+}
+
+.service-container {
+    width: 1550px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.service-boxes {
+    margin-top: 70vh;
+}
+
+.service-box {
+    width: 350px;
+    height: 360px;
+    border-top-left-radius: 125px;
+    border-bottom-right-radius: 125px;
+    padding: 50px 35px;
+    overflow: hidden;
+    background: rgba(76, 114, 153, 255);
+    box-shadow: 8px 8px 16px , -8px -8px 16px rgb(4, 4, 77);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    
+}
+
+.service-box h2 {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    color: rgb(4, 4, 77);
+}
+
+.service-box:hover {
+    background: linear-gradient(145deg, rgba(76, 114, 153, 255), rgb(54, 54, 82));
+    box-shadow: 8px 8px 16px , -8px -8px 16px rgb(4, 4, 77);
+}
+
+.ser-icon {
+    font-size: 50px;
+    color: rgba(30, 48, 84, 255);
+}
